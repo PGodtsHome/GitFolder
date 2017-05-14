@@ -1,0 +1,270 @@
+!SESSION 2017-05-14 19:02:09.906 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data Q:\\09 Talend OS 6_0_1\\GitFolder
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2017-05-14 19:02:11.156
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [315]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2017-05-14 19:02:11.171
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [317]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-05-14 19:02:12.567
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:02:47.365
+!MESSAGE 2017-05-14 19:02:47,365 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - pierre.godts@hotmail.com logged on SimpleProjectInGitSpace
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:02:49.099
+!MESSAGE 2017-05-14 19:02:49,084 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:02.709
+!MESSAGE 2017-05-14 19:03:02,709 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:xmlbeans-2.6.0.jar was defined with different locations.
+Components who define these jars are:[tFileOutputExcel, tFileInputExcel, tMicrosoftCrmOutput, tMicrosoftCrmInput]
+Locations:[platform:/plugin/org.talend.libraries.apache.cxf/lib/xmlbeans-2.6.0.jar, platform:/plugin/org.talend.libraries.apache.xml/lib/xmlbeans-2.6.0.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:02.724
+!MESSAGE 2017-05-14 19:03:02,724 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:zookeeper-3.4.6.jar was defined with different locations.
+Components who define these jars are:[tHiveRow, tESBConsumer, tRESTClient, tHiveConnection]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/zookeeper-3.4.6.jar, platform:/plugin/org.talend.libraries.esb/lib/zookeeper-3.4.6.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:02.740
+!MESSAGE 2017-05-14 19:03:02,724 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:stax-api-1.0.1.jar was defined with different locations.
+Components who define these jars are:[tHiveRow, tRESTClient, tAlfrescoOutput, tHiveConnection]
+Locations:[platform:/plugin/org.talend.libraries.esb/lib/stax-api-1.0.1.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/stax-api-1.0.1.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:02.740
+!MESSAGE 2017-05-14 19:03:02,740 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:aopalliance-1.0.jar was defined with different locations.
+Components who define these jars are:[tCloudStart, tCloudStop, tHiveRow, tESBConsumer, tRESTClient, tHiveConnection]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/aopalliance-1.0.jar, platform:/plugin/org.talend.libraries.esb/lib/aopalliance-1.0.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.146
+!MESSAGE 2017-05-14 19:03:04,146 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:slf4j-api-1.7.5.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.slf4j]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/slf4j-api-1.7.5.jar, platform:/plugin/org.talend.libraries.slf4j/lib/slf4j-api-1.7.5.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.162
+!MESSAGE 2017-05-14 19:03:04,162 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:httpclient-4.2.5.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.apache.http]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/httpclient-4.2.5.jar, platform:/plugin/org.talend.libraries.apache.http/lib/httpclient-4.2.5.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.162
+!MESSAGE 2017-05-14 19:03:04,162 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:stax-api-1.0.1.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.esb]
+Locations:[platform:/plugin/org.talend.libraries.esb/lib/stax-api-1.0.1.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/stax-api-1.0.1.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.178
+!MESSAGE 2017-05-14 19:03:04,162 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:guava-11.0.2.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.guava, plugin:org.talend.libraries.hadoop.mapr.4.0.1]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.mapr.4.0.1/lib/guava-11.0.2.jar, platform:/plugin/org.talend.libraries.guava/lib/guava-11.0.2.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.178
+!MESSAGE 2017-05-14 19:03:04,178 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:jackson-mapper-asl-1.9.13.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.jackson]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/jackson-mapper-asl-1.9.13.jar, platform:/plugin/org.talend.libraries.jackson/lib/jackson-mapper-asl-1.9.13.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.178
+!MESSAGE 2017-05-14 19:03:04,178 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:aopalliance-1.0.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.esb]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/aopalliance-1.0.jar, platform:/plugin/org.talend.libraries.esb/lib/aopalliance-1.0.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.193
+!MESSAGE 2017-05-14 19:03:04,193 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:zookeeper-3.4.6.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.esb]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/zookeeper-3.4.6.jar, platform:/plugin/org.talend.libraries.esb/lib/zookeeper-3.4.6.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.193
+!MESSAGE 2017-05-14 19:03:04,193 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:jackson-core-asl-1.9.13.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.jackson]
+Locations:[platform:/plugin/org.talend.libraries.jackson/lib/jackson-core-asl-1.9.13.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/jackson-core-asl-1.9.13.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.209
+!MESSAGE 2017-05-14 19:03:04,209 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:guice-3.0.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.hadoop.hdp.2.1, plugin:org.talend.libraries.hadoop.mapr.4.0.1]
+Locations:[platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/guice-3.0.jar, platform:/plugin/org.talend.libraries.hadoop.mapr.4.0.1/lib/guice-3.0.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.1/lib/guice-3.0.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.209
+!MESSAGE 2017-05-14 19:03:04,209 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:commons-configuration-1.6.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.apache.common, plugin:org.talend.libraries.hadoop.hdp.2.2]
+Locations:[platform:/plugin/org.talend.libraries.apache.common/lib/commons-configuration-1.6.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/commons-configuration-1.6.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.224
+!MESSAGE 2017-05-14 19:03:04,224 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:slf4j-log4j12-1.7.5.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.slf4j]
+Locations:[platform:/plugin/org.talend.libraries.slf4j/lib/slf4j-log4j12-1.7.5.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/slf4j-log4j12-1.7.5.jar]
+
+
+!ENTRY org.talend.platform.logging 2 0 2017-05-14 19:03:04.224
+!MESSAGE 2017-05-14 19:03:04,224 WARN  org.talend.commons.exception.CommonExceptionHandler  - Library:jetty-util-6.1.26.hwx.jar was defined with different locations.
+Components who define these jars are:[plugin:org.talend.libraries.hadoop.hdp.2.2, plugin:org.talend.libraries.jetty]
+Locations:[platform:/plugin/org.talend.libraries.jetty/lib/jetty-util-6.1.26.hwx.jar, platform:/plugin/org.talend.libraries.hadoop.hdp.2.2/lib/tezServer/jetty-util-6.1.26.hwx.jar]
+
+
+!ENTRY org.eclipse.ui 2 2 2017-05-14 19:03:34.559
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:14:29.332
+!MESSAGE 2017-05-14 19:14:29,332 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talendcsv.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talend_file_enhanced_20070724.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.simplejobingitrepo_0_1.SimpleJobInGitRepo --context=Default --stat_port=3531 %*
+
+!SESSION 2017-05-14 19:17:11.821 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2017-05-14 19:17:13.108
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [315]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2017-05-14 19:17:13.111
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [317]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-05-14 19:17:14.615
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:17:17.218
+!MESSAGE 2017-05-14 19:17:17,215 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:17:26.195
+!MESSAGE 2017-05-14 19:17:26,194 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - pierre.godts@hotmail.com logged on SimpleProjectInGitSpace
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:17:27.689
+!MESSAGE 2017-05-14 19:17:27,687 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.eclipse.ui 2 2 2017-05-14 19:17:43.943
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:19:28.342
+!MESSAGE 2017-05-14 19:19:28,340 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talendcsv.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talend_file_enhanced_20070724.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.simplejobingitrepo_0_1.SimpleJobInGitRepo --context=Default --stat_port=3787 %*
+
+!SESSION 2017-05-14 19:22:58.897 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2017-05-14 19:23:00.446
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [315]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2017-05-14 19:23:00.450
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [317]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-05-14 19:23:02.213
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:23:04.914
+!MESSAGE 2017-05-14 19:23:04,914 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:23:14.185
+!MESSAGE 2017-05-14 19:23:14,185 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - pierre.godts@hotmail.com logged on SimpleProjectInGitSpace
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:23:15.607
+!MESSAGE 2017-05-14 19:23:15,607 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.eclipse.ui 2 2 2017-05-14 19:23:28.314
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:25:11.521
+!MESSAGE 2017-05-14 19:25:11,521 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talendcsv.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talend_file_enhanced_20070724.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.simplejobingitrepo_0_1.SimpleJobInGitRepo --context=Default --stat_port=3790 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-05-14 19:30:05.184
+!MESSAGE 2017-05-14 19:30:05,184 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talendcsv.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talend_file_enhanced_20070724.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.simplejobingitrepo_0_1.SimpleJobInGitRepo --context=Default --stat_port=3925 %*
+

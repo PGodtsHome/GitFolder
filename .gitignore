@@ -8,6 +8,12 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+# Talend files and folfers from installation
+# ===========================================
+
+.Java
+.JETEmitters
+
 # Windows Installer files
 *.cab
 *.msi
