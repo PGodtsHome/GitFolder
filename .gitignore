@@ -11,9 +11,6 @@ $RECYCLE.BIN/
 # Talend files and folfers from installation
 # ===========================================
 
-.Java
-.JETEmitters
-
 .screenshot
 
 # Windows Installer files
