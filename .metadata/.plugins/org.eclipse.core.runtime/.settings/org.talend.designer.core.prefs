@@ -1,4 +1,4 @@
-Palette.RecentlyUsed.ComponentsList=tMap\:1494781861117,tFileOutputDelimited\:1494781852224,tFileInputDelimited\:1494781845456
+Palette.RecentlyUsed.ComponentsList=tMsgBox\:1494867796886,tMap\:1494781861117,tFileOutputDelimited\:1494781852224,tFileInputDelimited\:1494781845456
 TalendEditorPaletteFactory.Size=125
 TalendEditorPaletteFactory.StateAS400=1
 TalendEditorPaletteFactory.StateAlfresco=1
@@ -60,7 +60,6 @@ TalendEditorPaletteFactory.StateParAccel=1
 TalendEditorPaletteFactory.StatePattern\ matching=1
 TalendEditorPaletteFactory.StatePostgreSQL=1
 TalendEditorPaletteFactory.StatePostgresPlus=1
-TalendEditorPaletteFactory.StateProcessing=0
 TalendEditorPaletteFactory.StateREST=1
 TalendEditorPaletteFactory.StateRecently\ Used=0
 TalendEditorPaletteFactory.StateRedshift=1
