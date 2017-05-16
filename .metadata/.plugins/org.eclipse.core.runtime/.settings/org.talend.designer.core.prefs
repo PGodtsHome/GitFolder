@@ -10,6 +10,7 @@ TalendEditorPaletteFactory.StateBox=1
 TalendEditorPaletteFactory.StateCentricCRM=1
 TalendEditorPaletteFactory.StateCharts=1
 TalendEditorPaletteFactory.StateCombined\ SQL=1
+TalendEditorPaletteFactory.StateDB\ Generic=1
 TalendEditorPaletteFactory.StateDB\ JDBC=1
 TalendEditorPaletteFactory.StateDB\ SCD=1
 TalendEditorPaletteFactory.StateDB2=1
