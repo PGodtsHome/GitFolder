@@ -82,17 +82,28 @@
         <elementParameter xmi:id="_MqwAzDjHEeeCkcdqGvzX4A" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
-    <ItemsRelations xmi:id="_zbwr4DjKEee0LM_0oqIyzA">
-      <baseItem xmi:id="_zbwr4TjKEee0LM_0oqIyzA" id="_PmGiEDjIEeeCkcdqGvzX4A" version="0.1" type="job"/>
-      <relatedItems xmi:id="_zbwr4jjKEee0LM_0oqIyzA" id="_xlHTUDjKEee0LM_0oqIyzA" version="Latest" type="context"/>
-      <relatedItems xmi:id="_zbwr4zjKEee0LM_0oqIyzA" id="Numeric" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr5DjKEee0LM_0oqIyzA" id="Relational" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr5TjKEee0LM_0oqIyzA" id="TalendString" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr5jjKEee0LM_0oqIyzA" id="DataOperation" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr5zjKEee0LM_0oqIyzA" id="StringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr6DjKEee0LM_0oqIyzA" id="TalendDataGenerator" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr6TjKEee0LM_0oqIyzA" id="TalendDate" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_zbwr6jjKEee0LM_0oqIyzA" id="Mathematical" version="Latest" type="routine"/>
+    <ItemsRelations xmi:id="_QUTAgDpXEee8Oeej9Flrqw">
+      <baseItem xmi:id="_QUTAgTpXEee8Oeej9Flrqw" id="_PmGiEDjIEeeCkcdqGvzX4A" version="0.1" type="job"/>
+      <relatedItems xmi:id="_QUTAgjpXEee8Oeej9Flrqw" id="_xlHTUDjKEee0LM_0oqIyzA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_QUTAgzpXEee8Oeej9Flrqw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAhDpXEee8Oeej9Flrqw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAhTpXEee8Oeej9Flrqw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAhjpXEee8Oeej9Flrqw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAhzpXEee8Oeej9Flrqw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAiDpXEee8Oeej9Flrqw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAiTpXEee8Oeej9Flrqw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAijpXEee8Oeej9Flrqw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_QUTAizpXEee8Oeej9Flrqw">
+      <baseItem xmi:id="_QUTAjDpXEee8Oeej9Flrqw" id="_NRxqsDpXEee8Oeej9Flrqw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_QUTAjTpXEee8Oeej9Flrqw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAjjpXEee8Oeej9Flrqw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAjzpXEee8Oeej9Flrqw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAkDpXEee8Oeej9Flrqw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAkTpXEee8Oeej9Flrqw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAkjpXEee8Oeej9Flrqw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAkzpXEee8Oeej9Flrqw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QUTAlDpXEee8Oeej9Flrqw" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_HUefkDjHEeeCkcdqGvzX4A" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="ok"/>
     <migrationTask xmi:id="_HUefkTjHEeeCkcdqGvzX4A" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="ok"/>
@@ -372,4 +383,5 @@
     <migrationTask xmi:id="_HUegozjHEeeCkcdqGvzX4A" id="org.talend.repository.model.migration.ChangeBatchParameter4SomeDBComponents" breaks="6.0.0" version="6.0.1" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_HRpOADjHEeeCkcdqGvzX4A" login="pierre.godts@hotmail.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_2cAM0DpWEeeUH7lns9uknQ" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
 </xmi:XMI>

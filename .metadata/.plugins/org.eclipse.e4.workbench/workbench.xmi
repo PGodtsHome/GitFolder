@@ -28,7 +28,7 @@
           <tags>persp.actionSet:org.talend.repository.demoprojcet.actionSet</tags>
           <tags>persp.actionSet:org.talend.repository.CreateactionSet</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_O40axjjHEeeCkcdqGvzX4A" selectedElement="_O40azTjHEeeCkcdqGvzX4A" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_O40axzjHEeeCkcdqGvzX4A" containerData="1378" selectedElement="_O40ayDjHEeeCkcdqGvzX4A">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_O40axzjHEeeCkcdqGvzX4A" containerData="1378" selectedElement="_O40ayjjHEeeCkcdqGvzX4A">
               <children xsi:type="basic:PartStack" xmi:id="_O40ayDjHEeeCkcdqGvzX4A" elementId="navigatorLayout" containerData="6000" selectedElement="_O40ayTjHEeeCkcdqGvzX4A">
                 <tags>newtablook</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_O40ayTjHEeeCkcdqGvzX4A" elementId="org.talend.repository.cnf.view" ref="_O4qp6jjHEeeCkcdqGvzX4A"/>
@@ -42,7 +42,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_O40azTjHEeeCkcdqGvzX4A" containerData="8622" selectedElement="_O40azjjHEeeCkcdqGvzX4A" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_O40azjjHEeeCkcdqGvzX4A" containerData="8000" selectedElement="_O40a0DjHEeeCkcdqGvzX4A">
                 <children xsi:type="advanced:Placeholder" xmi:id="_O40azzjHEeeCkcdqGvzX4A" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_O4hf0DjHEeeCkcdqGvzX4A"/>
-                <children xsi:type="basic:PartStack" xmi:id="_O40a0DjHEeeCkcdqGvzX4A" elementId="bottomLayout" containerData="4000" selectedElement="_O40a1DjHEeeCkcdqGvzX4A">
+                <children xsi:type="basic:PartStack" xmi:id="_O40a0DjHEeeCkcdqGvzX4A" elementId="bottomLayout" containerData="4000" selectedElement="_O40a0zjHEeeCkcdqGvzX4A">
                   <tags>newtablook</tags>
                   <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_O40a0TjHEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" ref="_O40awTjHEeeCkcdqGvzX4A"/>
@@ -132,7 +132,7 @@
       </menus>
       <toolbar xmi:id="_PFyfwTjHEeeCkcdqGvzX4A" elementId="org.eclipse.gef.ui.palette_view"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_O40awTjHEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Job(SimpleJobInGitRepo 0.1)" iconURI="platform:/plugin/org.talend.common.ui.runtime/icons1/process_icon.png" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_O40awTjHEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Job(test_new_job_from_cloned_version 0.1)" iconURI="platform:/plugin/org.talend.common.ui.runtime/icons1/process_icon.png" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Talend</tags>
@@ -157,23 +157,23 @@
       <tags>View</tags>
       <tags>categoryTag:Talend</tags>
       <tags>activeOnClose</tags>
+      <tags>active</tags>
       <menus xmi:id="_QBEm0DjIEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.properties.ComponentSettingsView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_QBEm0TjIEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.properties.ComponentSettingsView" visible="false"/>
+      <toolbar xmi:id="_QBEm0TjIEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.properties.ComponentSettingsView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_O40axDjHEeeCkcdqGvzX4A" elementId="org.talend.designer.runprocess.ui.views.processview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Run job" iconURI="platform:/plugin/org.talend.designer.runprocess/icons/process_view.png" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Talend</tags>
       <tags>activeOnClose</tags>
-      <tags>active</tags>
       <menus xmi:id="_P4R3MDjIEeeCkcdqGvzX4A" elementId="org.talend.designer.runprocess.ui.views.processview">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_P4R3MTjIEeeCkcdqGvzX4A" elementId="org.talend.designer.runprocess.ui.views.processview"/>
+      <toolbar xmi:id="_P4R3MTjIEeeCkcdqGvzX4A" elementId="org.talend.designer.runprocess.ui.views.processview" visible="false"/>
     </sharedElements>
     <trimBars xmi:id="_J-WE0jjHEeeCkcdqGvzX4A" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_O0NAgDjHEeeCkcdqGvzX4A" elementId="!!!ApplicationActionBarAdvisor.save!!!">
@@ -1316,7 +1316,7 @@
     <tags>View</tags>
     <tags>categoryTag:Talend</tags>
   </descriptors>
-  <descriptors xmi:id="_KFWEtjjHEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.ProblemsView" label="Problemen" iconURI="platform:/plugin/org.talend.designer.core/icons/problems_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_KFWEtjjHEeeCkcdqGvzX4A" elementId="org.talend.designer.core.ui.views.ProblemsView" label="Problems" iconURI="platform:/plugin/org.talend.designer.core/icons/problems_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:Talend</tags>
   </descriptors>

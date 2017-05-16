@@ -26,8 +26,8 @@ org.eclipse.jdt.core.classpathVariable.EXTERNAL_COMPONENT_ORG_TALEND_DESIGNER_WE
 org.eclipse.jdt.core.classpathVariable.EXTERNAL_COMPONENT_ORG_TALEND_DESIGNER_WEBSERVICE_4=C\:/TOS_6.0.1/TOS_DI-Win32-20150908_1633-V6.0.1/configuration/org.eclipse.osgi/531/0/.cp/lib/xercesImpl.jar
 org.eclipse.jdt.core.classpathVariable.EXTERNAL_COMPONENT_ORG_TALEND_DESIGNER_XMLMAP=C\:/TOS_6.0.1/TOS_DI-Win32-20150908_1633-V6.0.1/plugins/org.talend.designer.xmlmap_6.0.1.20150908_1633.jar
 org.eclipse.jdt.core.classpathVariable.GEF_MAP=C\:/TOS_6.0.1/TOS_DI-Win32-20150908_1633-V6.0.1/plugins/org.talend.designer.gefabstractmap_6.0.1.20150908_1633.jar
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.8.0_112/jre/lib/rt.jar
-org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.8.0_112/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk1.8.0_121/src.zip
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.classpathVariable.MANAGEMENT_LIBRARIES=C\:/TOS_6.0.1/TOS_DI-Win32-20150908_1633-V6.0.1/plugins/org.talend.metadata.managment_6.0.1.20150908_1633.jar
 org.eclipse.jdt.core.classpathVariable.ORG_TALEND_DESIGNER_ABSTRACTMAP_LIBRARIES=C\:/TOS_6.0.1/TOS_DI-Win32-20150908_1633-V6.0.1/plugins/org.talend.designer.abstractmap_6.0.1.20150908_1633.jar
