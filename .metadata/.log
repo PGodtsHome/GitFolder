@@ -4179,3 +4179,124 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2017-05-16 18:55:21.785
 !MESSAGE 2017-05-16 18:55:21,775 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talendcsv.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talend_file_enhanced_20070724.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.simplejobingitrepo_0_1.SimpleJobInGitRepo --context=Default --stat_port=3596 %*
 
+!SESSION 2017-06-09 10:25:31.557 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2017-06-09 10:25:33.558
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [315]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2017-06-09 10:25:33.569
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [317]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-06-09 10:25:36.930
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:25:40.701
+!MESSAGE 2017-06-09 10:25:40,697 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:27:45.755
+!MESSAGE 2017-06-09 10:27:45,752 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - pierre.godts@hotmail.com logged on SimpleProjectInGitSpace
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:27:49.556
+!MESSAGE 2017-06-09 10:27:49,554 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.eclipse.ui 2 2 2017-06-09 10:28:08.961
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:29:29.834
+!MESSAGE 2017-06-09 10:29:29,832 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.test_new_job_from_cloned_version_0_1.test_new_job_from_cloned_version --context=Default --stat_port=3607 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:30:42.593
+!MESSAGE 2017-06-09 10:30:42,592 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.test_new_job_from_cloned_version_0_1.test_new_job_from_cloned_version --context=Default --stat_port=3721 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:32:00.681
+!MESSAGE 2017-06-09 10:32:00,679 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jre1.8.0_111/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -cp Q:/09 Talend OS 6_0_1/GitFolder/.Java/target/classes;.;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/dom4j-1.6.1.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/log4j-1.2.16.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talendcsv.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib/talend_file_enhanced_20070724.jar;Q:/09 Talend OS 6_0_1/GitFolder/.Java/lib; simpleprojectingitspace.simplejobingitrepo_0_1.SimpleJobInGitRepo --context=Default --stat_port=3851 %*
+
+!SESSION 2017-06-09 10:33:44.753 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2017-06-09 10:33:46.044
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [315]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2017-06-09 10:33:46.052
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [317]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-06-09 10:33:47.551
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'platform:/resource/org.talend.model/model/TalendFile.xsd'
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:33:50.257
+!MESSAGE 2017-06-09 10:33:50,253 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:34:13.779
+!MESSAGE 2017-06-09 10:34:13,777 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - pierre.godts@hotmail.com logged on SimpleProjectInGitSpace
+
+
+!ENTRY org.talend.platform.logging 1 0 2017-06-09 10:34:15.342
+!MESSAGE 2017-06-09 10:34:15,341 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.eclipse.ui 2 2 2017-06-09 10:34:31.370
+!MESSAGE Invalid preference category path: org.talend.designer.runtime.visualization.internal.ui.JavaMonitorPreferencePage (bundle: org.talend.designer.runtime.visualization.tools, page: org.talend.designer.runtime.visualization.internal.tools.ToolsPreferencePage)
