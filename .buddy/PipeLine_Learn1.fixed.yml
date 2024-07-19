@@ -1,7 +1,8 @@
 - pipeline: "PipeLine_Learn1"
-  on: "CLICK"
-  refs:
-  - "refs/heads/master"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/heads/master"
   fail_on_prepare_env_warning: true
   resources: "NANO"
   actions:
